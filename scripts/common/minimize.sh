@@ -1,5 +1,9 @@
 #!/bin/sh -eux
 
+case "$PACKER_BUILDER_TYPE" in
+  qemu) exit 0 ;;
+esac
+
 # Whiteout the swap partition to reduce box size 
 # Swap is disabled till reboot 
 readonly swapuuid=$(/sbin/blkid -o value -l -s UUID -t TYPE=swap)
