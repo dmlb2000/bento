@@ -35,7 +35,7 @@
       "boot_wait": "2s",
       "disk_size": 20480,
       "guest_additions_mode": "disable",
-      "guest_os_type": "MacOS107_64",
+      "guest_os_type": "MacOS109_64",
       "hard_drive_interface": "sata",
       "iso_checksum": "{{user `iso_checksum`}}",
       "iso_checksum_type": "{{user `iso_checksum_type`}}",
@@ -198,9 +198,9 @@
     "iso_checksum_type": "md5",
     "iso_url": "http://YOU-MUST-PROVIDE-YOUR-OWN-DMG.sorry",
     "metadata": "floppy/dummy_metadata.json",
-    "name": "chef/macosx-10.7",
+    "name": "chef/macosx-10.10",
     "no_proxy": "{{env `no_proxy`}}",
-    "template": "macosx-10.7",
+    "template": "macosx-10.10",
     "version": "2.1.TIMESTAMP"
   }
 }
