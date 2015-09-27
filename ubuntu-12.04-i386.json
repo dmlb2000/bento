@@ -134,7 +134,6 @@
       ],
       "boot_wait": "10s",
       "disk_size": 40960,
-      "parallels_tools_flavor": "lin",
       "guest_os_type": "ubuntu",
       "http_directory": "http",
       "iso_checksum": "{{user `iso_checksum`}}",
